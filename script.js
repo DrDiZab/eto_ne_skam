@@ -38,19 +38,20 @@ heart.draw();
 function text() {
     ctx.fillStyle = 'black';
     ctx.font = '35px Marck Script';
-    ctx.fillText('Моя валентинка для тебя', 100, 30);
+    ctx.fillText('Мое приглашение для тебя', 100, 30);
     ctx.font = '20px Marck Script';
     ctx.fillText('В этот день я хочу сказать', 15,110);
-    ctx.fillText('Что я не забыл про тебя.', 15, 140);
-    ctx.fillText('Хочу тебя пригласить погулять.', 15,170);
-    ctx.fillText('Напиши мне, если ты не против', 30, 280);
+    ctx.fillText('Что хотел бы пригласить тебя.', 15, 140);
+    ctx.fillText('Пригласить на кое-что замечательное...', 15,170);
+    ctx.fillText('Шурма! Да-да! Ты прчитал правильно!', 15,200);
+    ctx.fillText('Напиши мне, если ты не против)Ы)', 30, 280);
 }
 function girl() {
     let girl = new Image();
     girl.onload = function() {
         ctx.drawImage(girl, 355, 70, 245,230);
     }
-    girl.src = 'girl.png';
+    girl.src = 'shaurma.png';
     
 }
 function pismo() {
